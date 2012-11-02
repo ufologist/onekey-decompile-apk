@@ -16,7 +16,7 @@
 
 例如:
 {{{
-_inject_classes "D:\TestSmaliInject\build\classes" "D:\TestSmali\smali"
+_inject_classes D:\TestSmaliInject\build\classes D:\TestSmali\smali
 }}}
 
 = onekey-decompile-apk v1.0.1 =
