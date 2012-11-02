@@ -16,7 +16,7 @@ echo ?
 echo 使用方法
 echo --------
 echo _inject_classes {class目录} {apk反编译的smali目录}
-echo 例如: _inject_classes "D:\TestSmaliInject\build\classes" "D:\TestSmali\smali"
+echo 例如: _inject_classes D:\TestSmaliInject\build\classes D:\TestSmali\smali
 echo ***********************************
 
 
