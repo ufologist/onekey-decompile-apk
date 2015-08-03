@@ -16,18 +16,21 @@ Automatically exported from code.google.com/p/onekey-decompile-apk
 
 ## 运用工具(非常感谢他们) ##
 1. [apktool](http://code.google.com/p/android-apktool/)反编译出apk中的资源文件, 例如AndroidManifest.xml和res
+
    ```
    java -jar apktool.jar d -d xxx.apk
    ```
 2. [dex2jar](http://code.google.com/p/dex2jar/)反编译出apk中的class
+
    ```
    // dex2jar is deprecated, use the d2j-dex2jar
    d2j-dex2jar xxx.apk
    ```
 3. [jd-ui](http://java.decompiler.free.fr/?q=jdgui)/[jad](http://www.varaneckas.com/jad/)反编译class为java源文件
-   >> 反编译工具还是jad最强, JD-GUI只是方便反编译/查看整个jar而已, 反编译出来的代码不全,
-   >> 
-   >> 因此需要jd + jad(或者[jadclipse](http://jadclipse.sourceforge.net) eclipse插件使用更方便)配合才完美
+
+   > 反编译工具还是jad最强, JD-GUI只是方便反编译/查看整个jar而已, 反编译出来的代码不全,
+   > 
+   > 因此需要jd + jad(或者[jadclipse](http://jadclipse.sourceforge.net) eclipse插件使用更方便)配合才完美
 
 ## 参考 ##
 * [一个APK反编译利器Apktool](http://blog.sina.com.cn/s/blog_5752764e0100kv34.html)
