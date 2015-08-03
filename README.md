@@ -7,27 +7,27 @@ Automatically exported from code.google.com/p/onekey-decompile-apk
 3. 打开jd-gui反编译jar文件
 
 ## 使用方法 ##
-1. 在Downloads中下载onekey-decompile-apk.zip, 解压缩到类似D:\downloads\onekey-decompile-apk
-2. 将apk文件放到onekey-decompile-apk目录下
+1. 在Downloads中下载onekey-decompile-apk.zip, 解压缩到类似 `D:\downloads\onekey-decompile-apk`
+2. 将apk文件放到`onekey-decompile-apk`目录下
 3. 将apk文件拖拽到`_onekey-decompile-apk.bat`上
 4. 执行完成后
-    * 会在onekey-decompile-apk目录下生成和apk同名的目录(放置了apktools反编译出来的东西)
-    * 会在onekey-decompile-apk目录下生成和apk同名的jar文件(dex2jar反编译出来的class)
+    * 会在`onekey-decompile-apk`目录下生成和apk同名的目录(放置了apktools反编译出来的东西)
+    * 会在`onekey-decompile-apk`目录下生成和apk同名的jar文件(dex2jar反编译出来的class)
 
 ## 运用工具(非常感谢他们) ##
 1. [apktool](http://code.google.com/p/android-apktool/)反编译出apk中的资源文件, 例如AndroidManifest.xml和res
-  ```
-  java -jar apktool.jar d -d xxx.apk
-  ```
+   ```
+   java -jar apktool.jar d -d xxx.apk
+   ```
 2. [dex2jar](http://code.google.com/p/dex2jar/)反编译出apk中的class
-  ```
-  // dex2jar is deprecated, use the d2j-dex2jar
-  d2j-dex2jar xxx.apk
-  ```
+   ```
+   // dex2jar is deprecated, use the d2j-dex2jar
+   d2j-dex2jar xxx.apk
+   ```
 3. [jd-ui](http://java.decompiler.free.fr/?q=jdgui)/[jad](http://www.varaneckas.com/jad/)反编译class为java源文件
-  >> 反编译工具还是jad最强, JD-GUI只是方便反编译/查看整个jar而已, 反编译出来的代码不全,
-  >> 
-  >> 因此需要jd + jad(或者[jadclipse](http://jadclipse.sourceforge.net) eclipse插件使用更方便)配合才完美
+   >> 反编译工具还是jad最强, JD-GUI只是方便反编译/查看整个jar而已, 反编译出来的代码不全,
+   >> 
+   >> 因此需要jd + jad(或者[jadclipse](http://jadclipse.sourceforge.net) eclipse插件使用更方便)配合才完美
 
 ## 参考 ##
 * [一个APK反编译利器Apktool](http://blog.sina.com.cn/s/blog_5752764e0100kv34.html)
