@@ -16,7 +16,7 @@ Automatically exported from code.google.com/p/onekey-decompile-apk
 3. 打开jd-gui反编译jar文件
 
 ## 使用方法 ##
-1. 在Downloads中下载onekey-decompile-apk.zip, 解压缩到类似 `D:\downloads\onekey-decompile-apk`
+1. 在[releases - Downloads](https://github.com/ufologist/onekey-decompile-apk/releases)中下载onekey-decompile-apk.zip, 解压缩到类似 `D:\downloads\onekey-decompile-apk`
 2. 将apk文件放到`onekey-decompile-apk`目录下
 3. 将apk文件拖拽到`_onekey-decompile-apk.bat`上
 4. 执行完成后
