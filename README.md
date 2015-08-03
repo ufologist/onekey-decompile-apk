@@ -1,5 +1,11 @@
 # onekey-decompile-apk
+一步到位反编译apk工具(onekey decompile apk)
+
 Automatically exported from code.google.com/p/onekey-decompile-apk
+
+** Starred by 83 users | DownloadCount 23758 **
+
+v1.0.1 2012-10-24
 
 ## 功能 ##
 1. 集成apktool/dex2jar/jd-gui
